@@ -2,8 +2,9 @@ package entities
 
 import "github.com/google/uuid"
 
-type Restaurant struct {
+type MenuItem struct {
 	ID       uuid.UUID
 	Name     string
-	Location string
+	Price    float64
+	Category string
 }
